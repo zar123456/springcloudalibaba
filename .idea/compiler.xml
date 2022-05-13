@@ -2,11 +2,13 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="nacos-config" />
+        <module name="nacos-cousumer" />
         <module name="nacos" />
       </profile>
     </annotationProcessing>
@@ -22,6 +24,7 @@
       <module name="demo1" options="-parameters" />
       <module name="nacos" options="-parameters" />
       <module name="nacos-config" options="-parameters" />
+      <module name="nacos-cousumer" options="-parameters" />
     </option>
   </component>
 </project>
