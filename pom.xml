@@ -25,7 +25,6 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <alibaba.cloud>2021.0.1.0</alibaba.cloud>
-        <spring.cloud.alibaba.version>2021.0.1.0</spring.cloud.alibaba.version>
         <spring.cloud.version>2021.0.1</spring.cloud.version>
         <spring-cloud-netflix.version>2.2.7.RELEASE</spring-cloud-netflix.version>
         <spring-cloud-openfeign.version>3.0.4</spring-cloud-openfeign.version>
@@ -49,13 +48,6 @@
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
                 <version>${spring.cloud.alibaba.dependenciesn}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>com.alibaba.cloud</groupId>
-                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-                <version>${spring.cloud.alibaba.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
